@@ -7,12 +7,12 @@ import { Component, Input } from '@angular/core';
 })
 export class AppComponent {
   title = 'PROJECT-SHOPING';
-  loadedFeature = 'recipe';
+  // loadedFeature = 'recipe';
 
  @Input() featureToBe : string;
 
- onNavigate(feature:string){
-  this.loadedFeature = feature;
- }
+//  onNavigate(feature:string){
+//   this.loadedFeature = feature;
+//  }
 
 }
